@@ -1,4 +1,31 @@
 #!/usr/bin/env python
+'''
+    
+Simple script to do some analysis on "lines of interest" in the serial log dump.
+
+Copyright (C) 2025 Pat Deegan, https://psychogenic.com
+
+This expects CSV lines that start with LineOfInterestPrefix and has columns
+profile, 'conn', 'index', 'rssi', 'quality', 'phase', 'rtt', 'ifft'
+
+just call it with the file(s) of data and it will spit out something like
+
+ ******** filename  ********
+100 samples, RSSI -63.9/2.725 report:
+      algo:     avg     std     pts     fail rate
+------------------------------------------------
+      ifft:     10.685  0.6288  84      16.0%
+     phase:     13.748  0.6981  100     0.0%
+       rtt:     11.146  2.5512  100     0.0%
+phase: 22.3% greater distance (3.06m) 
+  rtt: 4.1% greater distance (0.46m) 
+  
+
+
+'''
+
+
+
 import argparse
 import re 
 import pandas as pd
@@ -6,6 +33,10 @@ import numpy as np
 from scipy.stats import pearsonr, spearmanr
 import json
 
+
+
+LineOfInterestPrefix='profile,'
+LineColumns = ['profile', 'conn', 'index', 'rssi', 'quality', 'phase', 'rtt', 'ifft']  
 
 def getArgs():
     # Set up command-line argument parsing
@@ -45,11 +76,12 @@ def extractLinesAsCSV(filepath:str, prefix:str):
             ln = f.readline()
     
     return retLines
-    
+
+  
 
 def getProfileData(from_logfile:str):
-    all_entries = extractLinesAsCSV(from_logfile, 'profile,')
-    header =  ['profile', 'conn', 'index', 'rssi', 'quality', 'phase', 'rtt', 'ifft']
+    all_entries = extractLinesAsCSV(from_logfile, LineOfInterestPrefix)
+    header = LineColumns
     
     return  pd.DataFrame(all_entries, columns=header)
     
