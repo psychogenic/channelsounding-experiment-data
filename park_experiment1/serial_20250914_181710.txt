@@ -1,0 +1,70 @@
+18:17:11.097 profile,0,1123,-76,0.00,0.000, 15.839,0.000
+18:17:11.647 profile,0,1124,-77,0.00,0.000, 18.962,0.000
+18:17:12.247 profile,0,1125,-76,0.00,0.000, 23.103,0.000
+18:17:12.648 profile,0,1126,-74,0.00,0.000, 22.619,0.000
+18:17:13.147 profile,0,1127,-81,0.00,0.000, 39.423,0.000
+18:17:13.697 profile,0,1128,-80,0.00,0.000, 36.200,0.000
+18:17:14.147 profile,0,1129,-80,0.00,0.000, 25.887,0.000
+18:17:14.647 profile,0,1130,-84,0.00,0.000, 26.700,0.000
+18:17:15.197 profile,0,1131,-87,0.00,0.000, 30.879,0.000
+18:17:15.894 [00:09:33.431,510] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:16.256 [00:09:33.793,105] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:16.496 [00:09:34.033,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1138 (err -12)[0m
+18:17:16.642 [00:09:34.178,019] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:16.730 [00:09:34.267,120] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:16.895 [00:09:34.431,760] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:17.395 [00:09:34.931,509] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:18.004 [00:09:35.541,698] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (335 < 493)[0m
+18:17:18.246 [00:09:35.783,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1142 (err -12)[0m
+18:17:18.384 [00:09:35.921,192] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:18.463 [00:09:36.000,080] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:18.612 [00:09:36.149,173] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:18.894 [00:09:36.431,511] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:19.550 [00:09:37.086,996] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:19.746 [00:09:37.283,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1145 (err -12)[0m
+18:17:19.881 [00:09:37.417,992] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:19.954 [00:09:37.491,600] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:20.103 [00:09:37.640,693] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:20.395 [00:09:37.931,759] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:20.706 [00:09:38.243,107] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:20.946 [00:09:38.483,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1147 (err -12)[0m
+18:17:21.092 [00:09:38.628,067] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:21.180 [00:09:38.717,136] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:21.394 [00:09:38.931,509] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:21.697 profile,0,1132,-79,0.00,0.000, 27.824,0.000
+18:17:22.394 [00:09:39.931,510] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:22.705 [00:09:40.241,700] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:22.896 [00:09:40.433,205] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1151 (err -12)[0m
+18:17:23.042 [00:09:40.578,051] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:23.130 [00:09:40.667,120] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:23.394 [00:09:40.931,510] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:23.596 [00:09:41.133,199] [1;31m<err> nrf_initiator: Get ranging data failed (err -16)[0m
+18:17:23.796 [00:09:41.333,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1152 (err -2)[0m
+18:17:23.917 [00:09:41.454,896] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:24.395 [00:09:41.931,759] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:25.049 [00:09:42.586,996] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:25.246 [00:09:42.783,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1156 (err -12)[0m
+18:17:25.380 [00:09:42.917,992] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:25.456 [00:09:42.994,000] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:25.605 [00:09:43.143,125] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:25.894 [00:09:43.431,759] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:26.504 [00:09:44.041,697] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:26.796 [00:09:44.333,205] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1159 (err -12)[0m
+18:17:26.920 [00:09:44.457,347] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:27.008 [00:09:44.545,232] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:27.156 [00:09:44.694,357] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:27.394 [00:09:44.931,759] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:28.005 [00:09:45.543,094] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:28.245 [00:09:45.783,206] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1162 (err -12)[0m
+18:17:28.381 [00:09:45.919,111] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:28.460 [00:09:45.996,432] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:28.608 [00:09:46.145,557] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:28.894 [00:09:46.431,509] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:29.504 [00:09:47.041,698] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:29.745 [00:09:47.283,205] [1;31m<err> nrf_initiator: Error when getting ranging data with ranging counter 1165 (err -12)[0m
+18:17:29.880 [00:09:47.417,993] [1;31m<err> nrf_initiator: Out of mem, clearing[0m
+18:17:29.961 [00:09:47.498,896] [1;31m<err> nrf_initiator: NOT GIVING LOCALSTEPS SEM for CONN F4:0D:AC:82:A2:1A (random) FROM ERR[0m
+18:17:30.110 [00:09:47.647,989] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:30.394 [00:09:47.931,509] [1;31m<err> nrf_initiator: Dropped subevent results due to unfinished ranging data request.[0m
+18:17:31.004 [00:09:48.541,698] [1;33m<wrn> ras_rreq: Ranging data out buffer not large enough for next segment (342 < 493)[0m
+18:17:31.245 [00:09:48.783,206] [1
