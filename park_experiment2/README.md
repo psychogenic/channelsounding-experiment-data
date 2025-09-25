@@ -33,3 +33,5 @@ These lines are
 With the "cN" items being raw estimations for connection N, and the various `_x` and `_y` being the calculated position based on related pairs of distance estimates.
 
 
+The code actually crashed a couple of times while I was logging, need to work on that code.  It basically picked up where it left off, but that would cause a huge jump on the first reported values every time.
+
